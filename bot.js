@@ -30,4 +30,4 @@ toilet paper awesome`);
   }
 });
 
-client.login(token);
+client.login(process.env.DISCORD_TOKEN);
